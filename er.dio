@@ -1,0 +1,35 @@
+<mxfile host="65bd71144e" modified="2021-03-03T10:05:27.553Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" version="14.2.4" etag="NaBlPk69y30o9VXpbcK9" type="embed">
+    <diagram id="bYNs1rmN7oRogksBKh9E" name="ページ1">
+        <mxGraphModel dx="331" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="225" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="445" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;p style=&quot;font-size: 14px&quot;&gt;usersテーブル&lt;/p&gt;&lt;div&gt;email (string型, NOT NULL)&lt;/div&gt;&lt;div&gt;password (string型, NOT NULL)&lt;br&gt;&lt;/div&gt;name (string型, NOT NULL)&lt;div&gt;profile (text型, NOT NULL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;occupation (text型, NOT NULL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;position (text型, NOT NULL)&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;horizontal=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="200" width="210" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="662.5" y="430" as="sourcePoint"/>
+                        <mxPoint x="600" y="635" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="commentsテーブル&lt;br&gt;&lt;br&gt;&amp;nbsp;text (text型, NOT NULL)&lt;br&gt;&amp;nbsp;user (references型)&lt;br&gt;&amp;nbsp;prototype (references型)" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="510" width="210" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="prototypeテーブル&lt;br&gt;&lt;br&gt;&amp;nbsp;title (string型, NOT NULL)&lt;br&gt;&amp;nbsp;catch_copy (text型, NOT NULL)&lt;br&gt;&amp;nbsp;concept (text型, NOT NULL)&lt;br&gt;&amp;nbsp;image (ActiveStorageで実装)&lt;br&gt;&amp;nbsp;user (references型)" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="200" width="210" height="190" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
